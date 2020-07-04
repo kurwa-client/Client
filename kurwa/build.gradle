@@ -8,17 +8,26 @@ buildscript {
         classpath 'net.minecraftforge.gradle:ForgeGradle:3.+'
     }
 }
-        
+
+
 apply plugin: 'net.minecraftforge.gradle'
-// Only edit below this line, the above code adds and enables the necessary things for Forge to be setup.
 apply plugin: 'eclipse'
+apply plugin: 'java'
 apply plugin: 'maven-publish'
 
 version = '1.0'
 group = 'net.kurwaclient' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'kurwa'
 
-sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // Need this here so eclipse task generates correctly.
+repositories {
+    mavenCentral()
+    jcenter()
+
+    maven {
+        name = 'impactdevelopment-repo'
+        url = 'https://impactdevelopment.github.io/maven/'
+    }
+}
 
 minecraft {
     mappings channel: 'snapshot', version: '20171003-1.12'
@@ -39,7 +48,12 @@ minecraft {
 
 dependencies {
     minecraft 'net.minecraftforge:forge:1.12.2-14.23.5.2854'
-    compile "com.github.ZeroMemes:Alpine:1.9"
+    compile "com.github.ZeroMemes:Alpine:1.6"
+    compile "net.jodah:typetools:0.6.2"
+
+    compile 'org.reflections:reflections:0.9.10'
+    compile 'dom4j:dom4j:1.6.1'
+    testCompile 'junit:junit:4.12'
 }
 
 jar {

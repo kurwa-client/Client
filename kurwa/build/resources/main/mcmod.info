@@ -1,14 +1,14 @@
 [
 {
-  "modid": "examplemod",
-  "name": "Example Mod",
-  "description": "Example placeholder mod.",
+  "modid": "kurwa",
+  "name": "Kurwa",
+  "description": "The hacked client for slavs.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["ExampleDude"],
-  "credits": "The Forge and FML guys, for making this example",
+  "authorList": ["Jay", "NoMansCan/Dylan"],
+  "credits": "",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
