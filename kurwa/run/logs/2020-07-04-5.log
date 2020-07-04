@@ -1,50 +1,50 @@
-[01:48:41] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[01:48:41] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[01:48:41] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[01:48:42] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2854 for Minecraft 1.12.2 loading
-[01:48:42] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_251, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_251\jre
-[01:48:42] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
-[01:48:42] [main/ERROR] [FML]: Full: C:\Users\Jay\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
-[01:48:42] [main/ERROR] [FML]: Trimmed: c:/users/jay/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
-[01:48:42] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[01:48:42] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
-[01:48:42] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
-[01:48:42] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
-[01:48:42] [main/INFO] [FML]: Searching C:\Users\Jay\Desktop\Kurwa\Client\kurwa\run\.\mods for mods
-[01:48:42] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[01:48:42] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[01:48:42] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[01:48:42] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[01:48:42] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[01:48:45] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
-[01:48:45] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[01:48:45] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[01:48:45] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[01:48:45] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[01:48:45] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[01:48:46] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player578
-[01:48:49] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
-[01:48:49] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
-[01:48:50] [Client thread/INFO] [FML]: -- System Details --
+[01:51:34] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[01:51:34] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[01:51:34] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[01:51:34] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2854 for Minecraft 1.12.2 loading
+[01:51:34] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_251, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_251\jre
+[01:51:34] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[01:51:34] [main/ERROR] [FML]: Full: C:\Users\Jay\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[01:51:34] [main/ERROR] [FML]: Trimmed: c:/users/jay/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[01:51:34] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[01:51:34] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+[01:51:35] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[01:51:35] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[01:51:35] [main/INFO] [FML]: Searching C:\Users\Jay\Desktop\Kurwa\Client\kurwa\run\.\mods for mods
+[01:51:35] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[01:51:35] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[01:51:35] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[01:51:35] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[01:51:35] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[01:51:38] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[01:51:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[01:51:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[01:51:38] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[01:51:38] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[01:51:38] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[01:51:39] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player730
+[01:51:43] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[01:51:43] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[01:51:44] [Client thread/INFO] [FML]: -- System Details --
 Details:
 	Minecraft Version: 1.12.2
 	Operating System: Windows 10 (amd64) version 10.0
 	Java Version: 1.8.0_251, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 512683400 bytes (488 MB) / 646971392 bytes (617 MB) up to 2828009472 bytes (2697 MB)
+	Memory: 518506016 bytes (494 MB) / 653262848 bytes (623 MB) up to 2828009472 bytes (2697 MB)
 	JVM Flags: 0 total; 
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	Loaded coremods (and transformers): 
 	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 432.00' Renderer: 'GeForce GTX 1660/PCIe/SSE2'
-[01:48:50] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2854 Initialized
-[01:48:50] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[01:48:50] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[01:48:50] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
-[01:48:50] [Client thread/INFO] [FML]: Searching C:\Users\Jay\Desktop\Kurwa\Client\kurwa\run\.\mods for mods
-[01:48:50] [Client thread/INFO] [FML]: Mod kurwa is missing the required element 'name'. Substituting kurwa
-[01:48:50] [Client thread/WARN] [FML]: Mod kurwa is missing the required element 'version' and no fallback can be found. Substituting '1.0'.
-[01:48:51] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+[01:51:44] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2854 Initialized
+[01:51:44] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[01:51:44] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[01:51:44] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
+[01:51:44] [Client thread/INFO] [FML]: Searching C:\Users\Jay\Desktop\Kurwa\Client\kurwa\run\.\mods for mods
+[01:51:44] [Client thread/INFO] [FML]: Mod kurwa is missing the required element 'name'. Substituting kurwa
+[01:51:44] [Client thread/WARN] [FML]: Mod kurwa is missing the required element 'version' and no fallback can be found. Substituting '1.0'.
+[01:51:45] [Client thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -73,7 +73,7 @@ java.lang.IllegalArgumentException: null
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_251]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[01:48:51] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Jay\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\6.2\a9690730f92cc79eeadc20e400ebb41eccce10b1\asm-util-6.2.jar - probably a corrupt zip
+[01:51:45] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Jay\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-util\6.2\a9690730f92cc79eeadc20e400ebb41eccce10b1\asm-util-6.2.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -106,7 +106,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[01:48:51] [Client thread/WARN] [FML]: Zip file asm-util-6.2.jar failed to read properly, it will be ignored
+[01:51:45] [Client thread/WARN] [FML]: Zip file asm-util-6.2.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -139,7 +139,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[01:48:51] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+[01:51:45] [Client thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -168,7 +168,7 @@ java.lang.IllegalArgumentException: null
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_251]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[01:48:51] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Jay\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\6.2\61570e046111559f38d4e0e580c005f75988c0a6\asm-tree-6.2.jar - probably a corrupt zip
+[01:51:45] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Jay\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-tree\6.2\61570e046111559f38d4e0e580c005f75988c0a6\asm-tree-6.2.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -201,7 +201,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[01:48:51] [Client thread/WARN] [FML]: Zip file asm-tree-6.2.jar failed to read properly, it will be ignored
+[01:51:45] [Client thread/WARN] [FML]: Zip file asm-tree-6.2.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -234,7 +234,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[01:48:51] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+[01:51:45] [Client thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -263,7 +263,7 @@ java.lang.IllegalArgumentException: null
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_251]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[01:48:51] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Jay\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\6.2\1b6c4ff09ce03f3052429139c2a68e295cae6604\asm-6.2.jar - probably a corrupt zip
+[01:51:45] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Jay\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm\6.2\1b6c4ff09ce03f3052429139c2a68e295cae6604\asm-6.2.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -296,7 +296,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[01:48:51] [Client thread/WARN] [FML]: Zip file asm-6.2.jar failed to read properly, it will be ignored
+[01:51:45] [Client thread/WARN] [FML]: Zip file asm-6.2.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -329,7 +329,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[01:48:51] [Client thread/ERROR] [FML]: Unable to read a class file correctly
+[01:51:45] [Client thread/ERROR] [FML]: Unable to read a class file correctly
 java.lang.IllegalArgumentException: null
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:185) ~[asm-debug-all-5.2.jar:5.2]
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:168) ~[asm-debug-all-5.2.jar:5.2]
@@ -358,7 +358,7 @@ java.lang.IllegalArgumentException: null
 	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_251]
 	at net.minecraftforge.legacydev.Main.start(Main.java:86) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
 	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29) [legacydev-0.2.3.1-fatjar.jar:0.2.3.1+4+372be23]
-[01:48:51] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Jay\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\6.2\c7d9a90d221cbb977848d2c777eb3aa7637e89df\asm-analysis-6.2.jar - probably a corrupt zip
+[01:51:45] [Client thread/ERROR] [FML]: There was a problem reading the entry module-info.class in the jar C:\Users\Jay\.gradle\caches\modules-2\files-2.1\org.ow2.asm\asm-analysis\6.2\c7d9a90d221cbb977848d2c777eb3aa7637e89df\asm-analysis-6.2.jar - probably a corrupt zip
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -391,7 +391,7 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[01:48:51] [Client thread/WARN] [FML]: Zip file asm-analysis-6.2.jar failed to read properly, it will be ignored
+[01:51:45] [Client thread/WARN] [FML]: Zip file asm-analysis-6.2.jar failed to read properly, it will be ignored
 net.minecraftforge.fml.common.LoaderException: java.lang.IllegalArgumentException
 
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:63) ~[ASMModParser.class:?]
@@ -424,105 +424,673 @@ Caused by: java.lang.IllegalArgumentException
 	at org.objectweb.asm.ClassReader.<init>(ClassReader.java:439) ~[asm-debug-all-5.2.jar:5.2]
 	at net.minecraftforge.fml.common.discovery.asm.ASMModParser.<init>(ASMModParser.java:57) ~[ASMModParser.class:?]
 	... 23 more
-[01:48:51] [Client thread/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
-[01:48:51] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, kurwa] at CLIENT
-[01:48:51] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, kurwa] at SERVER
-[01:48:52] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 54767800 nanos
-[01:48:52] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:kurwa
-[01:48:52] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
-[01:48:52] [Client thread/INFO] [FML]: Found 1168 ObjectHolder annotations
-[01:48:52] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[01:48:52] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[01:48:52] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[01:48:52] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[01:48:52] [Client thread/INFO] [FML]: Applying holder lookups
-[01:48:52] [Client thread/INFO] [FML]: Holder lookups applied
-[01:48:52] [Client thread/INFO] [FML]: Applying holder lookups
-[01:48:52] [Client thread/INFO] [FML]: Holder lookups applied
-[01:48:52] [Client thread/INFO] [FML]: Applying holder lookups
-[01:48:52] [Client thread/INFO] [FML]: Holder lookups applied
-[01:48:52] [Client thread/INFO] [FML]: Applying holder lookups
-[01:48:52] [Client thread/INFO] [FML]: Holder lookups applied
-[01:48:52] [Client thread/INFO] [FML]: Injecting itemstacks
-[01:48:52] [Client thread/INFO] [FML]: Itemstack injection complete
-[01:48:52] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
-[01:48:55] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
-[01:48:55] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
-[01:48:55] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[01:48:55] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
-[01:48:55] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
-[01:49:02] [Client thread/INFO] [FML]: Max texture size: 16384
-[01:49:06] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
-[01:49:07] [Client thread/INFO] [FML]: Applying holder lookups
-[01:49:07] [Client thread/INFO] [FML]: Holder lookups applied
-[01:49:11] [Client thread/INFO] [FML]: Injecting itemstacks
-[01:49:11] [Client thread/INFO] [FML]: Itemstack injection complete
-[01:49:11] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
-[01:49:11] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
-[01:49:11] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
-[01:49:13] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
-[01:49:21] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
-[01:49:21] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
-[01:49:21] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[01:49:22] [Server thread/INFO] [FML]: Applying holder lookups
-[01:49:22] [Server thread/INFO] [FML]: Holder lookups applied
-[01:49:22] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@7f9c2155)
-[01:49:23] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
-[01:49:23] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@7f9c2155)
-[01:49:23] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@7f9c2155)
-[01:49:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[01:49:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 72%
-[01:49:24] [Server thread/INFO] [FML]: Unloading dimension -1
-[01:49:24] [Server thread/INFO] [FML]: Unloading dimension 1
-[01:49:24] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 12, from 10
-[01:49:25] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
-[01:49:25] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
-[01:49:25] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 5 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2854,kurwa@1.0,mcp@9.42
-[01:49:25] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
-[01:49:26] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[01:49:26] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player578[local:E:566e001b] logged in with entity id 397 at (208.0055069295128, 69.0, 351.78337222754425)
-[01:49:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player578 joined the game
-[01:49:26] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[01:49:26] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[01:49:31] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[01:49:31] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[01:49:34] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[01:49:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[01:49:34] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[01:49:34] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[01:49:35] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[01:49:35] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[01:49:35] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[01:49:35] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[01:49:35] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[01:49:35] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[01:49:35] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[01:49:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[01:49:36] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[01:49:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[01:49:36] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[01:49:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[01:49:36] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[01:49:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[01:49:36] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[01:49:36] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[01:49:36] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[01:49:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[01:49:37] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[01:49:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[01:49:37] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[01:49:37] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[01:49:38] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[01:49:38] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[01:49:41] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[01:49:41] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[01:49:42] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[01:49:42] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[01:49:43] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[01:49:43] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[01:49:43] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[01:49:43] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[01:49:47] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[01:49:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
-[01:49:48] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
-[01:49:48] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[01:51:45] [Client thread/INFO] [FML]: Forge Mod Loader has identified 5 mods to load
+[01:51:46] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, kurwa] at CLIENT
+[01:51:46] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, kurwa] at SERVER
+[01:51:46] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 126683500 nanos
+[01:51:46] [Client thread/INFO] [net.minecraft.client.resources.SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:kurwa
+[01:51:46] [Client thread/INFO] [FML]: Processing ObjectHolder annotations
+[01:51:46] [Client thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[01:51:46] [Client thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[01:51:46] [Client thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[01:51:47] [Client thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[01:51:47] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[01:51:47] [Client thread/INFO] [FML]: Applying holder lookups
+[01:51:47] [Client thread/INFO] [FML]: Holder lookups applied
+[01:51:47] [Client thread/INFO] [FML]: Applying holder lookups
+[01:51:47] [Client thread/INFO] [FML]: Holder lookups applied
+[01:51:47] [Client thread/INFO] [FML]: Applying holder lookups
+[01:51:47] [Client thread/INFO] [FML]: Holder lookups applied
+[01:51:47] [Client thread/INFO] [FML]: Applying holder lookups
+[01:51:47] [Client thread/INFO] [FML]: Holder lookups applied
+[01:51:47] [Client thread/INFO] [FML]: Injecting itemstacks
+[01:51:47] [Client thread/INFO] [FML]: Itemstack injection complete
+[01:51:47] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
+[01:51:49] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Starting up SoundSystem...
+[01:51:49] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: Initializing LWJGL OpenAL
+[01:51:49] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[01:51:50] [Thread-5/INFO] [net.minecraft.client.audio.SoundManager]: OpenAL initialized.
+[01:51:50] [Sound Library Loader/INFO] [net.minecraft.client.audio.SoundManager]: Sound engine started
+[01:51:58] [Client thread/INFO] [FML]: Max texture size: 16384
+[01:52:03] [Client thread/INFO] [net.minecraft.client.renderer.texture.TextureMap]: Created: 512x512 textures-atlas
+[01:52:04] [Client thread/INFO] [FML]: Applying holder lookups
+[01:52:04] [Client thread/INFO] [FML]: Holder lookups applied
+[01:52:09] [Client thread/INFO] [FML]: Injecting itemstacks
+[01:52:09] [Client thread/INFO] [FML]: Itemstack injection complete
+[01:52:09] [Client thread/INFO] [FML]: Forge Mod Loader has successfully loaded 5 mods
+[01:52:09] [Client thread/WARN] [net.minecraft.client.settings.GameSettings]: Skipping bad option: lastServer:
+[01:52:09] [Client thread/INFO] [com.mojang.text2speech.NarratorWindows]: Narrator library for x64 successfully loaded
+[01:52:11] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[01:52:21] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[01:52:21] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Generating keypair
+[01:52:21] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[01:52:22] [Server thread/INFO] [FML]: Applying holder lookups
+[01:52:22] [Server thread/INFO] [FML]: Holder lookups applied
+[01:52:22] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@1ce7ab30)
+[01:52:22] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[01:52:22] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@1ce7ab30)
+[01:52:23] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@1ce7ab30)
+[01:52:23] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[01:52:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 58%
+[01:52:24] [Server thread/INFO] [FML]: Unloading dimension -1
+[01:52:24] [Server thread/INFO] [FML]: Unloading dimension 1
+[01:52:24] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Changing view distance to 12, from 10
+[01:52:25] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[01:52:25] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[01:52:25] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 5 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2854,kurwa@1.0,mcp@9.42
+[01:52:25] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[01:52:25] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[01:52:25] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Player730[local:E:21fb925a] logged in with entity id 379 at (247.53804919351458, 64.0, 345.98165232669226)
+[01:52:25] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Player730 joined the game
+[01:52:26] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer]: Saving and pausing game...
+[01:52:27] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld[01:53:04] [Server thread/WARN] [net.minecraft.server.MinecraftServer]: The save is being accessed from another location, aborting
+thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'New World'/overworld
+[01:52:29] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:29] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:29] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:29] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:29] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:29] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:29] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:29] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:29] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:29] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:29] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:29] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:29] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:29] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:30] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:30] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:30] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:30] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:30] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:30] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:30] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:31] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:31] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:31] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:31] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:31] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:31] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:31] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:31] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:31] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:31] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:31] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:31] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:31] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:31] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:31] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:31] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:31] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:32] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:32] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:32] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:32] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:32] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:32] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:32] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:32] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:32] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:32] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:32] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:32] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:32] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:32] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:32] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:32] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:33] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:33] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:33] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:33] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:33] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:33] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:33] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:33] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:33] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:33] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:33] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:33] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:33] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:33] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:33] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:33] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:35] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:35] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:35] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:35] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:35] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:35] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:35] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:35] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:35] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:35] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:35] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:35] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:35] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:35] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:35] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:35] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:35] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:35] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:36] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:36] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:36] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:36] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:36] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:36] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:36] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:36] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:36] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:36] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:36] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:36] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:36] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:36] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:36] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:36] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:36] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:36] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:36] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:36] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:37] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:37] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:37] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:37] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:37] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:37] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:37] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:37] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:37] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:37] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:37] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:37] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:37] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:37] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:37] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:37] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:37] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:37] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:37] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:38] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:38] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:38] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:38] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:38] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:38] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:38] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:38] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:38] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:38] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:38] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:39] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:39] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:39] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:39] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:39] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:39] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:39] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:39] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:39] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:39] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:39] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:39] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:39] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:39] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:39] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:39] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:39] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:39] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:39] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:39] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:40] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:40] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:40] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:40] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:40] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:40] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:41] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:41] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:41] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:41] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:41] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:41] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:41] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:41] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:41] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:41] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:41] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:41] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:41] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:41] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:41] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:42] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:42] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:42] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:42] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:42] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:42] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:42] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:42] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:42] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:42] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:42] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:42] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:42] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:43] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:43] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:44] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:44] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:44] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:44] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:44] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:44] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:44] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:44] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:44] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:44] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:44] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:44] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:44] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:44] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:44] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:44] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:44] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:44] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:44] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:45] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:45] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:45] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:45] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:45] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:45] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:45] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:46] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:46] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:46] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:46] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:46] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:46] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:46] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:47] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:47] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:47] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:47] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:47] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:47] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:47] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:47] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:47] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:47] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:47] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:47] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:47] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:48] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:48] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:48] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:48] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:48] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:48] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:48] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:48] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:48] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:49] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:49] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:49] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:49] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:52] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:52] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:52] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:52] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:52] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:52] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:52] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:52] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:52] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:52] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:52] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:52] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:52] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:52] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:52] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:52] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:52] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:52] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:52] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:53] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:53] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:53] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:53] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:53] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:53] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:53] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:53] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:53] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:53] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:53] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:53] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:53] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:53] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:53] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:53] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:54] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:54] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:54] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:54] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:54] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:54] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:54] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:54] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:54] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:54] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:54] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:54] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:54] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:55] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:55] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:55] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:55] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:55] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:55] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:55] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:55] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:55] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:55] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:55] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:55] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:55] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:55] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:55] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:55] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:55] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:55] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:55] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:55] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:56] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:56] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:56] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:56] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:56] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:56] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:56] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:56] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:56] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:56] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:56] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:56] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:56] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:56] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:56] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:56] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:56] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:56] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:56] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:56] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:57] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:57] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:57] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:57] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:57] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:57] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:57] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:57] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:57] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:57] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:57] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:57] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:57] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:57] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:57] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:57] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:57] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:57] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:57] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:57] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:58] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:58] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:58] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:58] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:58] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:58] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:58] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:58] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:58] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:58] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:58] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:58] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:58] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:58] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:58] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:58] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:58] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:58] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:58] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:58] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:59] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:59] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:59] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:59] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:59] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:59] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:59] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:59] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:59] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:59] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:59] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:59] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:59] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:59] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:59] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:59] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:59] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:59] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:59] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:52:59] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:00] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:00] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:00] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:00] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:00] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:00] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:00] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:00] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:00] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:00] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:00] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:00] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:00] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:00] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:00] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:00] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:00] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:00] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:00] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:00] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:01] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:01] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:01] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:01] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:01] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:01] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:01] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:01] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:01] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:01] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:01] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:01] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:01] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:01] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:01] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:01] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:01] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:01] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:01] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:01] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:02] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:02] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:02] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:02] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:02] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:02] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:02] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:02] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:02] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:02] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:02] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:02] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:02] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:02] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:02] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:02] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:02] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:02] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:02] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:02] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:03] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:03] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:03] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:03] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:03] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:03] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:03] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:03] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:03] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:03] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:03] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:03] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:03] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:03] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:03] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:03] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:03] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:03] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:03] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:03] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:04] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:04] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:04] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:04] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:04] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:04] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:04] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:04] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:04] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:04] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:04] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:04] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:04] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:04] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:04] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:04] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:04] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:04] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:04] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:04] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:05] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:05] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:05] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:05] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:05] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:05] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:05] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:05] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:05] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:05] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:05] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:05] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:05] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:05] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:05] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:05] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:05] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:05] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:05] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:05] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:06] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:06] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:06] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:06] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:06] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:06] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:06] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:06] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:06] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:06] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:06] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:06] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:06] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:06] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:06] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:06] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:06] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:06] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:06] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:06] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:07] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:07] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:07] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:07] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:07] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:07] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:07] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:07] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:07] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:07] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:07] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:07] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:07] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:07] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:07] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:07] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:07] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:07] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:07] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:07] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:08] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:08] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:08] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:08] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:08] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:08] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:08] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:08] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:08] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:08] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:08] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:08] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:08] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:08] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:08] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:08] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:08] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:08] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:08] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:08] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:09] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:09] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:09] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:09] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:09] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:09] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:09] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:09] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:09] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:09] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:09] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:09] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:09] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:09] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:09] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:09] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:09] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:09] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:09] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:09] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:10] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:10] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:10] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:10] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:10] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:10] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:10] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
+[01:53:10] [Client thread/INFO] [STDOUT]: [net.kurwaclient.module.impl.movement.Sprint:lambda$new$0:27]: tick
