@@ -18,8 +18,7 @@ public class ModuleManager implements IKurwaManager {
     public void load(Kurwa kurwa) {
         for(Class<? extends Module> clazz : new Reflections().getSubTypesOf(Module.class)) {
             try {
-                Module m = (Module)clazz.newInstance();
-
+                Module m = clazz.newInstance();
                 modules.add(m);
                 kurwa.valueManager.registerObject(m.getName(), m);
 
@@ -28,6 +27,11 @@ public class ModuleManager implements IKurwaManager {
                 Kurwa.LOGGER.severe("Failure loading module " + clazz.getCanonicalName() + ".");
             }
         }
+        if(!getModule("HUD").getState()) {
+            getModule("HUD").setState(true);
+        }
+
+        Kurwa.LOGGER.info(String.valueOf(getModule("HUD").getState()));
     }
 
     public Module getModule(String name) {

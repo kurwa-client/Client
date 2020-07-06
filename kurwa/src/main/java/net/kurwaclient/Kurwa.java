@@ -10,6 +10,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.FMLCommonHandler;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import org.lwjgl.opengl.Display;
 
 import java.util.logging.Logger;
 
@@ -26,6 +27,7 @@ public class Kurwa {
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent e) {
+        Display.setTitle((KurwaConstants.CHANGE_TITLE ? "Kurwa " + KurwaConstants.VERSION : "Minecraft 1.12.2"));
         LOGGER.info("Initialising Kurwa " + KurwaConstants.VERSION);
 
         FMLCommonHandler.instance().bus().register(fmlEvents);

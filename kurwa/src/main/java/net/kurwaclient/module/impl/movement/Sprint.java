@@ -16,7 +16,6 @@ public class Sprint extends Module {
 
     @EventHandler
     private Listener<EventPlayerUpdate> playerUpdateListener = new Listener<>(e -> {
-        Kurwa.LOGGER.info(String.valueOf(smart.getObject()));
         if((smart.getObject()) /* smart is true */ && (mc.player.isSneaking() || !mc.player.onGround || mc.player.collidedVertically || mc.player.collidedHorizontally || !(mc.player.getFoodStats().getFoodLevel() > 6.0F) || mc.player.isOnLadder())) {
             mc.player.setSprinting(false);
         }

@@ -1,9 +1,9 @@
 package net.kurwaclient.events.client;
 
-public class KeyPressEvent {
+public class EventKeyPress {
     private int key;
 
-    public KeyPressEvent(int key) {
+    public EventKeyPress(int key) {
         this.key = key;
     }
 
