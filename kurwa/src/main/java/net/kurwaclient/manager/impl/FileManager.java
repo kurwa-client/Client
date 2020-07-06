@@ -70,7 +70,7 @@ public class FileManager implements IKurwaManager, IKurwaSaveable {
                                 bkReasons.add(entry.getKey() + "'s keybind is not valid!");
                             }
                         }else{
-                            bkReasons.add("Module object " + entry.getKey() + "isn't valid.");
+                            bkReasons.add("Module object " + entry.getKey() + " isn't valid.");
                         }
                     }
                 }else{

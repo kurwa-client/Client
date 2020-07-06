@@ -18,17 +18,17 @@ public class ValueManager implements IKurwaManager {
         this.values = new HashMap<>();
     }
 
-    public void registerObject(String name,  Object obj) {
+    public void registerObject(String name, Object object) {
         List<Value> _values = new ArrayList<>();
-        for(final Field f : obj.getClass().getDeclaredFields()) {
+        for (final Field field : object.getClass().getDeclaredFields()) {
             try {
-                f.setAccessible(true);
-                final Object o = f.get(obj);
+                field.setAccessible(true);
+                final Object obj = field.get(object);
 
-                if(o instanceof Value) {
-                    _values.add((Value)obj);
+                if (obj instanceof Value) {
+                    _values.add((Value) obj);
                 }
-            }catch(Exception e) {
+            } catch (IllegalAccessException e) {
                 e.printStackTrace();
             }
         }
@@ -36,13 +36,12 @@ public class ValueManager implements IKurwaManager {
     }
 
     public List<Value> getAllValues(String name) {
-        for(Map.Entry<String, List<Value>> entry : values.entrySet()) {
-            if(entry.getKey().equalsIgnoreCase(name)) {
-                return entry.getValue();
-            }
+        for (Map.Entry<String, List<Value>> stringListEntry : values.entrySet()) {
+            if (stringListEntry.getKey().equalsIgnoreCase(name)) return stringListEntry.getValue();
         }
         return null;
     }
+
 
     public HashMap<String, List<Value>> getValues() {
         return values;
