@@ -29,6 +29,7 @@ public class CommandToggle extends KurwaCommand {
         }
 
         module.toggle();
+        this.kurwa.fileManager.save(kurwa);
         CommandManager.outputChatMessage("Toggled " + module.getName() + " " + (module.getState() ? "on" : "off"));
     }
 }

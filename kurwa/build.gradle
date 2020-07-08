@@ -1,31 +1,55 @@
 buildscript {
     repositories {
-        maven { url = 'https://files.minecraftforge.net/maven' }
         jcenter()
+        mavenLocal()
         mavenCentral()
+
+        maven {
+            name = "forge"
+            url = "http://files.minecraftforge.net/maven"
+        }
+
+        maven {
+            url = "https://plugins.gradle.org/m2"
+        }
+
+        maven {
+            name = "SpongePowered"
+            url = 'http://repo.spongepowered.org/maven'
+        }
     }
     dependencies {
         classpath 'net.minecraftforge.gradle:ForgeGradle:3.+'
+        classpath "gradle.plugin.com.matthewprenger:CurseGradle:1.0.10"
+        classpath "org.spongepowered:mixingradle:0.7-SNAPSHOT"
+        classpath "com.github.jengelman.gradle.plugins:shadow:4.0.4"
     }
 }
 
-
 apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
+
+apply plugin: "org.spongepowered.mixin"
+apply plugin: "com.github.johnrengelman.shadow"
+
 apply plugin: 'java'
 apply plugin: 'maven-publish'
 
 version = '1.0'
 group = 'net.kurwaclient' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'kurwa'
 
 repositories {
+    mavenLocal()
     mavenCentral()
     jcenter()
 
     maven {
         name = 'impactdevelopment-repo'
         url = 'https://impactdevelopment.github.io/maven/'
+    }
+    maven {
+        name = "SpongePowered"
+        url = 'http://repo.spongepowered.org/maven'
     }
 }
 
@@ -46,6 +70,10 @@ minecraft {
     }
 }
 
+mixin {
+    add sourceSets.main, "mixins.kurwa.refmap.json"
+}
+
 dependencies {
     minecraft 'net.minecraftforge:forge:1.12.2-14.23.5.2854'
     compile "com.github.ZeroMemes:Alpine:1.6"
@@ -55,24 +83,47 @@ dependencies {
     compile 'dom4j:dom4j:1.6.1'
     testCompile 'junit:junit:4.12'
 
+    compile 'club.minnced:java-discord-rpc:2.0.2'
     compile 'com.mashape.unirest:unirest-java:1.3.1'
 }
 
 jar {
-    manifest {
-        attributes([
-            "Specification-Title": "kurwa",
-            "Specification-Vendor": "kurwadev",
-            "Specification-Version": "1", // We are version 1 of ourselves
-            "Implementation-Title": project.name,
-            "Implementation-Version": "${version}",
-            "Implementation-Vendor" :"kurwadev",
-            "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
-        ])
+    manifest.attributes(
+            "MixinConfigs": "mixins.kurwa.json",
+            "tweakClass": "org.spongepowered.asm.launch.MixinTweaker",
+            "TweakOrder": 0,
+            "FMLCorePluginContainsFMLMod": "net.kurwaclient.injection.MixinInit"
+    )
+}
+
+apply plugin: "idea"
+idea {
+    module {
+        inheritOutputDirs = true
     }
 }
 
+shadowJar {
+    dependencies {
+        include(dependency('org.spongepowered:mixin'))
+        include(dependency('club.minnced:java-discord-rpc'))
+    }
+
+    exclude 'dummyThing'
+    exclude 'LICENSE.txt'
+
+    classifier = ""
+}
+
+
 jar.finalizedBy('reobfJar')
+
+configurations {
+    external
+    compile.extendsFrom external
+}
+
+build.dependsOn shadowJar
 
 publishing {
     publications {

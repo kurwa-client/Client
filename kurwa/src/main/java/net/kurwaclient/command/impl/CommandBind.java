@@ -6,7 +6,6 @@ import net.kurwaclient.command.KurwaCommand;
 import net.kurwaclient.manager.impl.CommandManager;
 import net.kurwaclient.module.base.Module;
 import org.lwjgl.input.Keyboard;
-import scala.Int;
 
 @CommandInfo(name = "bind", usage = ">bind <module> <key>")
 public class CommandBind extends KurwaCommand {
