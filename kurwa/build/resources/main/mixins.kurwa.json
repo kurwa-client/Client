@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "package": "net.kurwaclient.injection.impl",
+  "refmap": "mixins.kurwa.refmap.json",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+
+  ]
+}

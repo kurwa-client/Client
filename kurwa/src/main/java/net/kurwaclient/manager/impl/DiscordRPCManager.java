@@ -44,7 +44,7 @@ public class DiscordRPCManager implements IKurwaManager {
             ServerData data = Minecraft.getMinecraft().getCurrentServerData();
             boolean singleplayer = (data == null || data.isOnLAN());
 
-            presence.details = "Fucking up shit on " + (singleplayer ? "singleplayer" : data.serverIP);
+            presence.details = "Fuckin' up shit on " + (singleplayer ? "singleplayer" : data.serverIP);
         }else{
             presence.details = "In Menu";
         }

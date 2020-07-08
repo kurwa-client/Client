@@ -78,6 +78,7 @@ dependencies {
     minecraft 'net.minecraftforge:forge:1.12.2-14.23.5.2854'
     compile "com.github.ZeroMemes:Alpine:1.6"
     compile "net.jodah:typetools:0.6.2"
+    compile "org.spongepowered:mixin:0.7.11-SNAPSHOT"
 
     compile 'org.reflections:reflections:0.9.10'
     compile 'dom4j:dom4j:1.6.1'
