@@ -12,6 +12,6 @@ import net.kurwaclient.module.base.ModuleInfo;
 public class HUD extends Module {
     @EventHandler
     public Listener<EventRender2D> render2DListener = new Listener<>(e -> {
-        
+
     });
 }

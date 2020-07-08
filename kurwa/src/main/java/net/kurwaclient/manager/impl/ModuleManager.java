@@ -12,10 +12,11 @@ import java.util.List;
  * TODO: load from filesystem when actually done lol
  */
 public class ModuleManager implements IKurwaManager {
-    private List<Module> modules = new ArrayList<>();
+    private List<Module> modules;
 
     @Override
     public void load(Kurwa kurwa) {
+        this.modules = new ArrayList<>();
         for(Class<? extends Module> clazz : new Reflections().getSubTypesOf(Module.class)) {
             try {
                 Module m = clazz.newInstance();
@@ -30,8 +31,6 @@ public class ModuleManager implements IKurwaManager {
         if(!getModule("HUD").getState()) {
             getModule("HUD").setState(true);
         }
-
-        Kurwa.LOGGER.info(String.valueOf(getModule("HUD").getState()));
     }
 
     public Module getModule(String name) {

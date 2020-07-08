@@ -3,6 +3,7 @@ package net.kurwaclient;
 import me.zero.alpine.EventBus;
 import me.zero.alpine.EventManager;
 import net.kurwaclient.events.FMLEvents;
+import net.kurwaclient.manager.impl.CommandManager;
 import net.kurwaclient.manager.impl.FileManager;
 import net.kurwaclient.manager.impl.ModuleManager;
 import net.kurwaclient.manager.impl.ValueManager;
@@ -22,6 +23,7 @@ public class Kurwa {
     public final ModuleManager moduleManager = new ModuleManager();
     public final ValueManager valueManager = new ValueManager();
     public final FileManager fileManager = new FileManager();
+    public final CommandManager commandManager = new CommandManager();
 
     private final FMLEvents fmlEvents = new FMLEvents(this);
 
@@ -36,6 +38,7 @@ public class Kurwa {
         valueManager.load(this);
         moduleManager.load(this);
         fileManager.load(this);
+        commandManager.load(this);
 
         Runtime.getRuntime().addShutdownHook(new Thread(this::end));
     }
