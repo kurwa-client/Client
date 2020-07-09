@@ -43,7 +43,7 @@ public class AuthenticationManager implements IKurwaManager {
 
         HttpResponse<JsonNode> res;
         try {
-            res = Unirest.get(KurwaConstants.WS_IP + "/auth?hwid=" + "test").asJson();
+            res = Unirest.get(KurwaConstants.WS_IP + "/auth?hwid=" + hwid).asJson();
         }catch(Exception e) {
             e.printStackTrace();
             JOptionPane.showMessageDialog(null, "Could not establish connection to our webserver! I cannot authenticate you with Kurwa+, Make sure you have a working internet connection. If you think this is an issue on our end, feel free to contact developers.");

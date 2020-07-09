@@ -7,4 +7,6 @@ public class KurwaConstants {
     public static final String RPC_ID = "730518491316355206";
 
     public static final String WS_IP = "http://159.69.108.11:6969";
+
+
 }

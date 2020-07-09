@@ -16,6 +16,7 @@ import java.util.logging.Logger;
 public class Kurwa {
     public static final Logger LOGGER = Logger.getLogger("Kurwa");
     public static final EventBus EVENT_BUS = new EventManager();
+    public static boolean isPlus = false;
 
     public final ModuleManager moduleManager = new ModuleManager();
     public final ValueManager valueManager = new ValueManager();
@@ -23,9 +24,9 @@ public class Kurwa {
     public final CommandManager commandManager = new CommandManager();
     public final DiscordRPCManager rpcManager = new DiscordRPCManager();
     public final AuthenticationManager authenticationManager = new AuthenticationManager();
+    public final FontManager fontManager = new FontManager();
 
     private final ForgeEventHandler forgeEventHandler = new ForgeEventHandler(this);
-    public boolean isPlus = false;
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent e) {
@@ -38,6 +39,7 @@ public class Kurwa {
         MinecraftForge.EVENT_BUS.register(forgeEventHandler);
 
         valueManager.load(this);
+        fontManager.load(this);
         moduleManager.load(this);
         fileManager.load(this);
         commandManager.load(this);

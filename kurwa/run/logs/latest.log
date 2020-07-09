@@ -1,16 +1,16 @@
-[01:37:18] [main/INFO]: Setting user: Player975
-[01:37:22] [main/WARN]: Skipping bad option: lastServer:
-[01:37:22] [main/INFO]: LWJGL Version: 2.9.4
-[01:37:26] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:kurwa
-[01:37:29] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[01:37:29] [Thread-5/INFO]: Initializing LWJGL OpenAL
-[01:37:29] [Thread-5/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[01:37:29] [Thread-5/INFO]: OpenAL initialized.
-[01:37:30] [Sound Library Loader/INFO]: Sound engine started
-[01:37:35] [main/INFO]: Created: 512x512 textures-atlas
-[01:37:47] [main/WARN]: Skipping bad option: lastServer:
-[01:37:47] [main/INFO]: Narrator library for x64 successfully loaded
-[01:37:47] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
-[01:37:58] [main/INFO]: Stopping!
-[01:37:58] [main/INFO]: SoundSystem shutting down...
-[01:37:59] [main/WARN]: Author: Paul Lamb, www.paulscode.com
+[04:26:06] [main/INFO]: Setting user: Player79
+[04:26:12] [main/WARN]: Skipping bad option: lastServer:
+[04:26:12] [main/INFO]: LWJGL Version: 2.9.4
+[04:26:17] [main/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:kurwa
+[04:26:21] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[04:26:21] [Thread-5/INFO]: Initializing LWJGL OpenAL
+[04:26:21] [Thread-5/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[04:26:21] [Thread-5/INFO]: OpenAL initialized.
+[04:26:21] [Sound Library Loader/INFO]: Sound engine started
+[04:26:28] [main/INFO]: Created: 512x512 textures-atlas
+[04:26:43] [main/WARN]: Skipping bad option: lastServer:
+[04:26:43] [main/INFO]: Narrator library for x64 successfully loaded
+[04:26:44] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[04:27:01] [main/INFO]: Stopping!
+[04:27:01] [main/INFO]: SoundSystem shutting down...
+[04:27:01] [main/WARN]: Author: Paul Lamb, www.paulscode.com
