@@ -1,86 +1,61 @@
 buildscript {
     repositories {
         jcenter()
-        mavenLocal()
-        mavenCentral()
-
-        maven {
-            name = "forge"
-            url = "http://files.minecraftforge.net/maven"
-        }
-
-        maven {
-            url = "https://plugins.gradle.org/m2"
-        }
-
-        maven {
-            name = "SpongePowered"
-            url = 'http://repo.spongepowered.org/maven'
-        }
+        maven { url = "http://files.minecraftforge.net/maven" }
+        maven { url = 'http://repo.spongepowered.org/maven' }
     }
     dependencies {
-        classpath 'net.minecraftforge.gradle:ForgeGradle:3.+'
-        classpath "gradle.plugin.com.matthewprenger:CurseGradle:1.0.10"
-        classpath "org.spongepowered:mixingradle:0.7-SNAPSHOT"
-        classpath "com.github.jengelman.gradle.plugins:shadow:4.0.4"
+        classpath 'net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT'
+        classpath 'org.spongepowered:mixingradle:0.6-SNAPSHOT'
+        classpath 'com.github.jengelman.gradle.plugins:shadow:1.2.3'
     }
 }
 
-apply plugin: 'net.minecraftforge.gradle'
-apply plugin: 'eclipse'
+apply plugin: 'net.minecraftforge.gradle.forge'
+apply plugin: 'org.spongepowered.mixin'
+apply plugin: 'com.github.johnrengelman.shadow'
 
-apply plugin: "org.spongepowered.mixin"
-apply plugin: "com.github.johnrengelman.shadow"
+version = "1.0"
+group = "net.kurwaclient"
 
-apply plugin: 'java'
-apply plugin: 'maven-publish'
+sourceCompatibility = targetCompatibility = '1.8'
+compileJava {
+    sourceCompatibility = targetCompatibility = '1.8'
+}
 
-version = '1.0'
-group = 'net.kurwaclient' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+minecraft {
+    version = "1.12.2-14.23.0.2531"
+    runDir = "run"
+    mappings = "snapshot_20171003"
+    coreMod = "net.kurwaclient.injection.MixinInit"
+}
 
 repositories {
-    mavenLocal()
-    mavenCentral()
-    jcenter()
-
+    maven {
+        name = 'spongepowered-repo'
+        url = 'http://repo.spongepowered.org/maven/'
+    }
     maven {
         name = 'impactdevelopment-repo'
         url = 'https://impactdevelopment.github.io/maven/'
     }
-    maven {
-        name = "SpongePowered"
-        url = 'http://repo.spongepowered.org/maven'
-    }
-}
-
-minecraft {
-    mappings channel: 'snapshot', version: '20171003-1.12'
-
-    runs {
-        client {
-            workingDirectory project.file('run')
-            property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
-            property 'forge.logging.console.level', 'debug'
-        }
-
-        server {
-            property 'forge.logging.markers', 'SCAN,REGISTRIES,REGISTRYDUMP'
-            property 'forge.logging.console.level', 'debug'
-        }
-    }
-}
-
-mixin {
-    add sourceSets.main, "mixins.kurwa.refmap.json"
+    jcenter()
+    mavenCentral()
 }
 
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.12.2-14.23.5.2854'
     compile "com.github.ZeroMemes:Alpine:1.6"
     compile "net.jodah:typetools:0.6.2"
-    compile "org.spongepowered:mixin:0.7.11-SNAPSHOT"
+    compile("org.spongepowered:mixin:0.7.4-SNAPSHOT") {
+        exclude module: 'launchwrapper'
+        exclude module: 'guava'
+        exclude module: 'gson'
+        exclude module: 'commons-io'
+    }
 
-    compile 'org.reflections:reflections:0.9.10'
+    compile(group: 'org.reflections', name: 'reflections', version: '0.9.11') {
+        exclude group: 'com.google.guava', module: 'guava'
+    }
     compile 'dom4j:dom4j:1.6.1'
     testCompile 'junit:junit:4.12'
 
@@ -93,48 +68,48 @@ jar {
             "MixinConfigs": "mixins.kurwa.json",
             "tweakClass": "org.spongepowered.asm.launch.MixinTweaker",
             "TweakOrder": 0,
-            "FMLCorePluginContainsFMLMod": "net.kurwaclient.injection.MixinInit"
+            "FMLCorePluginContainsFMLMod": "net.kurwaclient.injection.MixinInit",
+            'ForceLoadAsMod': 'true'
     )
 }
 
-apply plugin: "idea"
-idea {
-    module {
-        inheritOutputDirs = true
-    }
+mixin {
+    add sourceSets.main, 'mixins.kurwaclient.refmap.json'
+    defaultObfuscationEnv searge //so mixin doesn't have a go at us
 }
 
 shadowJar {
     dependencies {
+        include(dependency('org.yaml:snakeyaml')) //snakeyaml is needed!! one of dependencies depend on this.
         include(dependency('org.spongepowered:mixin'))
-        include(dependency('club.minnced:java-discord-rpc'))
+        include(dependency('com.github.ZeroMemes:Alpine'))
+        include(dependency('net.jodah:typetools'))
+        include(dependency('org.reflections:reflections'))
+        include(dependency('org.javassist:javassist'))
     }
-
     exclude 'dummyThing'
     exclude 'LICENSE.txt'
-
-    classifier = ""
+    classifier = 'release'
 }
 
-
-jar.finalizedBy('reobfJar')
-
-configurations {
-    external
-    compile.extendsFrom external
-}
-
-build.dependsOn shadowJar
-
-publishing {
-    publications {
-        mavenJava(MavenPublication) {
-            artifact jar
-        }
-    }
-    repositories {
-        maven {
-            url "file:///${project.projectDir}/mcmodsrepo"
-        }
+reobf {
+    shadowJar {
+        mappingType = 'SEARGE'
+        classpath = sourceSets.main.compileClasspath
     }
 }
+
+processResources {
+    inputs.property "version", project.version
+    inputs.property "mcversion", project.minecraft.version
+
+    from(sourceSets.main.resources.srcDirs) {
+        include 'mcmod.info'
+        expand 'version':project.version, 'mcversion':project.minecraft.version
+    }
+
+    from(sourceSets.main.resources.srcDirs) {
+        exclude 'mcmod.info'
+    }
+}
+build.dependsOn(shadowJar)
